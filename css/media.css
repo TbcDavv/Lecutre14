@@ -1,0 +1,117 @@
+@media (max-width: 1200px) {
+    header nav {
+        width: 90%;
+    }
+
+    main .otherSection {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1024px) {
+    header nav {
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    main .mainSection .text span {
+        font-size: 60px;
+    }
+
+    main .mainSection .text p {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    main .otherSection {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    main .otherSection .right section {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .otherSection .right section div {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    main .otherSection .left {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li a {
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+
+    main .mainSection .text span {
+        font-size: 50px;
+    }
+
+    main .mainSection .text p {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    main .otherSection {
+        margin-top: 40px;
+    }
+
+    main .otherSection .right section div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header nav ul li a {
+        font-size: 14px;
+    }
+
+    main .mainSection .text span {
+        font-size: 40px;
+    }
+
+    main .mainSection .text p {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    main .otherSection .left {
+        text-align: center;
+    }
+
+    main .otherSection .right section div {
+        width: 100%;
+    }
+
+    main .otherSection h2 {
+        font-size: 24px;
+    }
+
+    main .otherSection p {
+        font-size: 18px;
+    }
+}

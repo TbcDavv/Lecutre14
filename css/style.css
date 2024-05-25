@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav .right {
+    padding: 15px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 18px;
+    color: black;
+}
+
+main .mainSection img {
+    width: 100%;
+    position: relative;
+}
+
+main .mainSection .text {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+main .mainSection .text span {
+    font-size: 79px;
+    font-weight: 700;
+}
+
+main .mainSection .text p {
+    font-size: 19px;
+    margin-top: 50px;
+}
+
+main .otherSection {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main .otherSection .left {
+    width: 235px;
+    margin-bottom: 30px;
+}
+
+main .otherSection span {
+    font-size: 17px;
+}
+
+main .otherSection h2 {
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+
+main .otherSection p {
+    font-size: 20px;
+}
+
+main .otherSection .right section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .otherSection .right section div {
+    width: 286px;
+    margin-right: 80px;
+    margin-bottom: 60px;
+}
+
+main .otherSection .right section p {
+    font-size: 19px;
+    margin: 15px 0px;
+}
+
+main .otherSection .right section span {
+    font-size: 18px;
+}
